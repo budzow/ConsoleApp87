@@ -3,7 +3,7 @@
 public class Conf
 {
 
-    public Conf(string SqlConnectionString, string a1, string a1 = null, string a3 = null)
+    public Conf(string SqlConnectionString, string a1, string a2 = null, string a3 = null)
     {
         var storageAccount = new SqlConnection(SqlConnectionString);
         storageAccount.Open();
